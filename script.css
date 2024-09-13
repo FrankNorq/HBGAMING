@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(21, 1, 32);
+    color: rgb(149, 161, 157);
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    color: black;
+    background-color: rgb(65, 19, 46);
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+
+}
+
+li {
+    color: rgb(215, 215, 221);
+    padding: 20px;
+    list-style: none;
+
+}
+
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 600px;
+}
+
+footer {
+    text-align: left;
+}
