@@ -5,34 +5,95 @@ body {
     padding: 20px;
     margin: 0;
     text-align: center;
+    position: relative
 }
 
+
+
 header {
-    color: black;
-    background-color: rgb(65, 19, 46);
+    color: rgb(226, 217, 217);
+    background-color: rgb(32, 96, 112);
     padding: 20px;
     margin: 0;
     text-align: center;
-
+    font-size: x-large;
+    position: relative
 }
 
-li {
-    color: rgb(215, 215, 221);
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 100px;
+    height: 100%;
+}
+
+
+
+li,
+a {
+    color: rgb(186, 186, 196);
     padding: 20px;
     list-style: none;
+    left: 0;
+
+
 
 }
 
+
+
+section {
+    background-color: rgb(32, 96, 112);
+    padding: 40px;
+    margin: 60px;
+    position: relative
+}
 
 
 
 img {
     width: 100%;
     height: auto;
-    max-width: 400px;
-    max-height: 600px;
+    max-width: 500px;
+    max-height: 800px;
 }
 
+
 footer {
-    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32, 96, 112);
+
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .imagine {
+        width: 100%;
+        height: auto;
+        width: 300px;
+        height: 400px;
+
+    }
+}
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 8px;
+        margin: 2px;
+
+
+    }
+}
+
+@media (min-width: 1200px) {
+
+    main {
+        display: flex;
+    }
 }
