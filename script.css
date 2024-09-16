@@ -46,6 +46,9 @@ a {
     text-align: center;
 }
 
+a:hover {
+    color: rgb(17, 162, 219);
+}
 
 
 section {
